@@ -1,0 +1,4 @@
+Initializing a new repository converts it into a git repository. A new .git file is
+created and will start keeping track of all the changes made to that repository.
+
+Staging area is between working directory and repository. It is used to make commits more logical.
