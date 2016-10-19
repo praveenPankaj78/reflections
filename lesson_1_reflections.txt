@@ -1,0 +1,25 @@
+I learned to use FC coomand for windows and diff command for linux and mac.
+These commands can help us find differences between two files by comparing them
+line by line. It will be very useful when we want to know about changes made by us in 
+last version while some debugging.
+
+Having history of a file with us, gives us an access to see how well our application is 
+changing and what part of changes lead to what results.
+
+In git we manually choose when to commit our changes. Manual commmits have some advantage 
+than automatic commits like we can decide when a logical problem is fixed and can commit
+accordingly, whereas in automatic commit there is no proper order of recorded history.
+However problem with manual commit is when the user forget to make timely commits.
+
+I think Multi-file commits will be helpful in cases when we are making changes to an application
+having multiple files and have some inter-dependability on each other.
+
+To see the logs of a git project, just cd to the project directory and enter git log.
+It will show the commit history for the application. To see the changes done during a commit
+just type: diff <Commit ID of previous commit> <Commit ID of commit whose difference we want>
+
+Version control in git makes us feel confident while taking some risks as we can revert back to our
+previous version anytime we want.
+
+I want to become a full stack webg developer, so knowing git for creating different versions and new branches 
+is a necessity.
