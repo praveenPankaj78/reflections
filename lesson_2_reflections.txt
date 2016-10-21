@@ -16,3 +16,6 @@ branches inter-related.
 
 When we merge two branches the added lines of both branches are added in the merge and lines common to them and removed by a branch is removed
 from the merge.
+
+Git's automatic merge takes care of adding and removing blocks of code without
+asking the user. It saves time and effort in looking into the code everytime.
