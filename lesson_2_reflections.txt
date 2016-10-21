@@ -2,3 +2,17 @@ Initializing a new repository converts it into a git repository. A new .git file
 created and will start keeping track of all the changes made to that repository.
 
 Staging area is between working directory and repository. It is used to make commits more logical.
+
+To make sure that there is one commit per logical change, we can just move the files having involvement in per unit of
+logical change and move them to staging area. And then a single commit is enough for all of them.
+
+Branches in git help us keep track if we want to experiment with new features in our code without affecting
+the current functionality. Like when i want to make some changes in my website code for experiment, 
+but also want to retain previous code to follow up with current tutorial.
+
+Diagrams are very useful for understanding the branch structure of a repository.
+By drawing we can visualize which commit can be reached from where and how are the 
+branches inter-related.
+
+When we merge two branches the added lines of both branches are added in the merge and lines common to them and removed by a branch is removed
+from the merge.
