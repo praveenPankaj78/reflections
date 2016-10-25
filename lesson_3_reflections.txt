@@ -33,4 +33,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When we are not sure wheather our change will affect some functionality in
+	master. Taking approvals is helpfull since it lets us take reviews from
+	fellow collaborators and everyone is in sync with the changes we have done.
